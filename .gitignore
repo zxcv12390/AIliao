@@ -1,0 +1,13 @@
+dist/
+__pycache__/
+.DS_Store
+*.local.*
+node_modules/
+.next/
+.env*
+!.env.example
+.vercel/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo

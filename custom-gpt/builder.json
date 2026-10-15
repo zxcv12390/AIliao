@@ -1,0 +1,25 @@
+{
+  "format": "ailiao-gpt-configuration-guide",
+  "version": 1,
+  "name": "会意｜高情商聊天助手",
+  "description": "发来聊天截图或文字，帮你看清场景、理解情绪，写出自然、有分寸、像你自己的回复。支持职场、亲密关系、朋友与客户沟通，也能按需联网查证。",
+  "instructions_file": "custom-gpt/INSTRUCTIONS.md",
+  "knowledge_files": [
+    "custom-gpt/knowledge/01-沟通原则与自然表达.md",
+    "custom-gpt/knowledge/02-场景与示例.md",
+    "custom-gpt/knowledge/03-知识检索规则.md"
+  ],
+  "conversation_starters": [
+    "帮我看这张聊天截图，给一句自然、不尴尬的回复。",
+    "对方说“随便你”，我想缓和一下，但不想一味让步。",
+    "帮我把这句话改得有礼貌、有边界，别太像 AI。",
+    "我想拒绝同事的临时请求，怎么说不伤关系？"
+  ],
+  "capability_guidance": {
+    "image_input": "在账号可用的支持图片输入的模型中，用预览上传截图验证。",
+    "web_search": "在编辑器中启用账号可用的网页搜索；检索失败须如实说明。",
+    "actions": "首版不配置。私人知识库需另行鉴权和授权。",
+    "memory": "不依赖跨会话记忆；需要时由用户提供偏好卡。"
+  },
+  "notice": "供手动配置与核对使用，不是 ChatGPT 官方导入格式。"
+}
